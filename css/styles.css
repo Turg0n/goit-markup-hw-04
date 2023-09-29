@@ -93,7 +93,7 @@ ul {
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
-    padding-left: 0;
+    padding-left: 0;    
 }
 .address {
     text-decoration: none;
@@ -168,6 +168,14 @@ background-color: #404BBF;
 display: flex;
 gap: 24px;
 }
+.features-icon {
+    width: 264px;
+height: 112px;
+border-radius: 4px;
+border: 1px solid #8E8F99;
+background: #F4F4FD;
+margin-bottom: 8px;
+}
 .features-items {
 width: calc((100% - 3 * 24px ) / 4 );
 }
@@ -178,7 +186,6 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
-
 }
 .features-text {
     line-height: 1.5;
@@ -223,7 +230,22 @@ margin-bottom: 8px;
 text-align: center;
 line-height: 1.5;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
+.team-social {
+    display: flex;
+    gap: 24px;
+align-items: center;
+justify-content: center;
+}
+.team-social-item {
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 40px;
+/* need hover shadow */
+}
+
 .portfolio-title {
 color: #2E2F42;
 text-align: center;
@@ -241,8 +263,16 @@ margin-bottom: 72px;
 }
 .portfolio-list-item {
     width: calc((100% - 2 * 24px) / 3);
-
+    position: relative;
 }
+.portfolio-cover {
+    position: absolute;
+    top: 0;
+    color:  #F4F4FD;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+}
+/* Need owerfloo */
 .portfolio-card {
 padding: 32px 16px;
     width: 100%;
