@@ -67,6 +67,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 padding: 24px 0;
 display: block;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus {
@@ -110,6 +111,7 @@ gap: 40px;
     letter-spacing: 0.02em;
     padding-top: 24px;
 padding-bottom: 24px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
@@ -119,7 +121,15 @@ padding-bottom: 24px;
     padding: 188px 0;
     color: #FFF;
     text-align: center;
-    background-color: #2E2F42;
+    background:rgba(46, 47, 66, 0.70);
+background-size: 1440px;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-image: linear-gradient(
+    to bottom,
+    rgba(46, 47, 66, 0.70),
+    rgba(46, 47, 66, 0.70)
+), url(/images/people-office1.jpg);
 }
 
 .title-head { 
@@ -145,7 +155,10 @@ padding-bottom: 24px;
     padding: 16px 32px;
 margin: 0 auto;
 border: none;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .title-button:hover,
 .title-button:focus {
 background-color: #404BBF;
