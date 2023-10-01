@@ -378,9 +378,10 @@ background-color: #2E2F42;
     max-width: 1158px;   
     padding: 0 15px 0 15px;  
     display: flex;
-margin-right: 120px;
 align-items: baseline;
-gap: 120px;
+}
+.footer-container-left {
+    margin-right: 120px;
 }
 .footer-social-text {
     color:#FFF;
